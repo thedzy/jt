@@ -52,7 +52,7 @@ Other style:
 
 ```
 
-![Example 1](example.png "Example 1")
+![Example 1](images/example.png "Example 1")
 
 ```
 echo '{"Name": "Bob", "Age": 25, "Kids": ["John", "Jill"]}' |jt '[1,2,3]'
