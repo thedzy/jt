@@ -16,13 +16,13 @@ def main():
 
     # Parse and print
     parsed_datas: list = []
-    """if not sys.stdin.isatty():
+    if not sys.stdin.isatty():
         try:
             input_data: str = sys.stdin.read()
             json_data: dict = json.loads(input_data)
             parsed_datas.append(json_data)
         except json.decoder.JSONDecodeError as err:
-            display_json_err(err)"""
+            display_json_err(err)
 
     for content in options.contents:
         if Path(content).is_file():
